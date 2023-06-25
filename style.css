@@ -50,10 +50,10 @@ section {
 
 
     /* border-bottom: 2px solid rgb(94, 14, 14); */
-    border-radius: 30px;
+    /* border-radius: 30px; */
 
 
-    width: auto;
+    width: fit-content;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@ section {
 form {
     /* border: 5px solid rgb(255, 208, 0); */
     padding: 5px;
-    width: 50vw;
+    width: fit-content;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ form {
     padding: 5px 10px;
     width: 90%;
     font-size: 20px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 button {
@@ -200,7 +200,7 @@ button[disabled]:hover {
     padding: 5px 20px;
     width: auto;
     height: fit-content;
-    font-size: 30px;
+    font-size: 20px;
 }
 textarea{
     box-shadow: 0px 0px 5px 5px rgb(211, 211, 211);
@@ -277,6 +277,7 @@ textarea:focus{
 
 
         min-width: 95vw;
+        width: fit-content;
         margin: 30px 0;
         border-radius: 0px;
 
@@ -284,6 +285,7 @@ textarea:focus{
     }
 
     #cmnt {
+        /* margin: 0; */
         height: 60px;
         padding: 5px 10px;
         width: 80vw;
@@ -300,7 +302,7 @@ textarea:focus{
         height: fit-content; */
         /* display: flex; */
         /* max-height: 50vh; */
-        
+
         overflow: scroll;
         overflow-x: hidden;
 
@@ -319,5 +321,10 @@ textarea:focus{
     .comment_message {
         font-size: 20px;
     }
-
+    form {
+        margin: 1px;
+    }
+    .comment_input {
+        width: 100%;
+    }
 }
