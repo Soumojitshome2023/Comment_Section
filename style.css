@@ -95,7 +95,6 @@ form {
 }
 
 button {
-    /* display: none; */
     /* width: 50vw; */
     height: 50px;
     width: 90%;
@@ -104,6 +103,7 @@ button {
     color: white;
     border-color: purple;
     font-size: 20px;
+    /* display: none; */
 
 
 }
@@ -199,6 +199,7 @@ button[disabled]:hover {
 
     display: none;
     color: white;
+    text-align: center;
     border-radius: 30px;
     padding: 5px 20px;
     width: auto;
@@ -224,6 +225,8 @@ textarea:focus{
     width: 90%;
     height: fit-content;
     font-size: 30px;
+    text-align: center;
+    /* display: block; */
 }
 
 
